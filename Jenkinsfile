@@ -7,7 +7,7 @@ pipeline {
                 bat 'mvn clean package'
 
                 /* For Linux and Mac machine*/
-                sh 'mvn clean package'
+                //sh 'mvn clean package'
             }
             post {
                 success {
