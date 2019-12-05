@@ -16,5 +16,10 @@ pipeline {
                 }
             }
         }
+        stage ('Deploy Build in staging area') {
+            steps {
+                Build Job : 'Deploy_StagingArea_Pipeline'
+            }
+        }
     }
 }
