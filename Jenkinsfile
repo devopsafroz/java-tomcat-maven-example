@@ -16,11 +16,11 @@ pipeline {
                 }
             }
         }
-        stage ('Deploy Build in staging area') {
+        /*stage ('Deploy Build in staging area') {
             steps {
                 build job : 'Deploy_StagingArea_Pipeline'
             }
-        }
+        }*/
     }
 }
 
